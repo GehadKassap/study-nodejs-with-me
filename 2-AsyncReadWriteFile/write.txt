@@ -1,0 +1,5 @@
+So instead of a single process carrying out the jobs, you will have
+ multiple queue worker processes running the jobs in different queues.
+  Each queue will be a single threaded process 
+(unless you compile php for multithreading and then utilize it) 
+ txt2
